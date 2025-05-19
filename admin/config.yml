@@ -6,12 +6,6 @@ backend:
   squash_merges: true             # optional, better commit history
   # optional: open_authoring: false
 
-media_folder: "static/uploads"   # folder for uploaded files
-public_folder: "/uploads"        # path used in your site
-
-collections:
-  # your collections here, e.g. Store, Releases, etc.
-
 media_folder: "uploads"
 public_folder: "/uploads"
 
