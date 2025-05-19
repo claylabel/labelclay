@@ -4,7 +4,7 @@ backend:
   repo: claylabel/labelclay
   branch: main
   auth_scope: repo
-  client_id: YOUR_CLIENT_ID
+  client_id: Ov23li1jHEuikC4cvauE
 
 media_folder: "uploads"
 public_folder: "/uploads"
