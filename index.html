@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clay Label</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-black font-sans">
+  <header class="border-b py-4 px-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">CLAY</h1>
+    <nav class="space-x-4">
+      <a href="#store" class="hover:underline">Store</a>
+      <a href="#releases" class="hover:underline">Releases</a>
+      <a href="#follow" class="hover:underline">Follow</a>
+      <a href="#about" class="hover:underline">About</a>
+    </nav>
+  </header>
+
+  <main class="px-6">
+    <section id="store" class="py-12">
+      <h2 class="text-xl font-semibold mb-6">Store</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="store-items">
+        <!-- Store items populated dynamically -->
+      </div>
+    </section>
+
+    <section id="releases" class="py-12">
+      <h2 class="text-xl font-semibold mb-6">Releases</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="releases-list">
+        <!-- Releases populated dynamically -->
+      </div>
+    </section>
+
+    <section id="follow" class="py-12">
+      <h2 class="text-xl font-semibold mb-4">Follow</h2>
+      <ul class="space-y-2">
+        <li><a href="https://instagram.com/" target="_blank" class="text-blue-600 underline">Instagram</a></li>
+        <li><a href="https://bandcamp.com/" target="_blank" class="text-blue-600 underline">Bandcamp</a></li>
+        <li><a href="https://spotify.com/" target="_blank" class="text-blue-600 underline">Spotify</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="py-12">
+      <h2 class="text-xl font-semibold mb-4">About</h2>
+      <p>Clay is an independent music label showcasing underground talent through unique sound and visual design. For inquiries: <a href="mailto:info@claylabel.com" class="text-blue-600 underline">info@claylabel.com</a></p>
+    </section>
+  </main>
+
+  <footer class="py-6 text-center text-sm border-t">
+    &copy; 2025 Clay Label. All rights reserved.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
