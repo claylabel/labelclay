@@ -1,10 +1,19 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Clay CMS</title>
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  </head>
-  <body></body>
+<head>
+  <meta charset="utf-8" />
+  <title>Clay CMS</title>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+</head>
+<body>
+  <h1>Loading Clay CMS…</h1>
+  <script>
+    CMS.init({
+      config: '/labelclay/admin/config.yml'
+    });
+  </script>
+</body>
 </html>
